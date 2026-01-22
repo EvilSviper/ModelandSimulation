@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36 OPR/125.0.0.0" version="29.2.9">
+  <diagram name="Page-1" id="pyayqwvIkwYUhfBjAkN6">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-53" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pasien" vertex="1">
+          <mxGeometry height="200" width="160" y="-40" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-54" parent="IyIFsRbAVmn_EXIJp_Lg-53" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_pasien&lt;div&gt;+nik&lt;br&gt;+nama&lt;br&gt;+nama&lt;br&gt;+tanggal_lahir&lt;br&gt;+alamat&lt;br&gt;+no_tlp&lt;br&gt;+email&lt;br&gt;+password_hash&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-55" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Poliklinik" vertex="1">
+          <mxGeometry height="120" width="160" x="660" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-56" parent="IyIFsRbAVmn_EXIJp_Lg-55" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_poli&lt;div&gt;+nama_poli&lt;br&gt;+lokasi_gedung&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-57" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Pendaftaran" vertex="1">
+          <mxGeometry height="190" width="160" x="420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-58" parent="IyIFsRbAVmn_EXIJp_Lg-57" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_daftar&lt;br&gt;+id_pasien&lt;br&gt;+id_jadwal&lt;br&gt;+tgl_daftar&lt;br&gt;+no_antrian&lt;br&gt;+status_bayar&lt;br&gt;+qr_code_data&lt;br&gt;+status_kunjungan" vertex="1">
+          <mxGeometry height="140" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-59" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Dokter" vertex="1">
+          <mxGeometry height="120" width="160" x="980" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-60" parent="IyIFsRbAVmn_EXIJp_Lg-59" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_dokter&lt;div&gt;+nama_dokter&lt;br&gt;+spesialisasi&lt;br&gt;+no_sip&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-61" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Jadwal Dokter" vertex="1">
+          <mxGeometry height="150" width="160" x="670" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-62" parent="IyIFsRbAVmn_EXIJp_Lg-61" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_jadwal&lt;br&gt;+id_dokter&lt;br&gt;+hari&lt;br&gt;+jam_mulai&lt;div&gt;+jam_selesai&lt;br&gt;+kuota_maksimal&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-65" edge="1" parent="1" source="IyIFsRbAVmn_EXIJp_Lg-54" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="IyIFsRbAVmn_EXIJp_Lg-58" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="230" y="350" as="sourcePoint" />
+            <mxPoint x="330" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-67" edge="1" parent="1" source="IyIFsRbAVmn_EXIJp_Lg-60" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="IyIFsRbAVmn_EXIJp_Lg-56" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="580" y="270" as="sourcePoint" />
+            <mxPoint x="680" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-68" edge="1" parent="1" source="IyIFsRbAVmn_EXIJp_Lg-59" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.682;entryDx=0;entryDy=0;entryPerimeter=0;" target="IyIFsRbAVmn_EXIJp_Lg-62" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="560" y="270" as="sourcePoint" />
+            <mxPoint x="660" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IyIFsRbAVmn_EXIJp_Lg-69" edge="1" parent="1" source="IyIFsRbAVmn_EXIJp_Lg-62" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" target="IyIFsRbAVmn_EXIJp_Lg-58" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="340" y="300" as="sourcePoint" />
+            <mxPoint x="440" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-3" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Laporan_pendaftaran" vertex="1">
+          <mxGeometry height="150" width="160" x="130" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-4" parent="7RpCujOsSjWfrJzVqdp0-3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_laporan&lt;br&gt;+id_kepala&lt;br&gt;+tgl_laporan&lt;br&gt;+total_pasien&lt;div&gt;+ringkasan_poli&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-5" parent="1" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" value="Kepala RM" vertex="1">
+          <mxGeometry height="120" width="160" x="-130" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-6" parent="7RpCujOsSjWfrJzVqdp0-5" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" value="+id_kepala&lt;br&gt;+nama_kepala&lt;br&gt;+nip&lt;br&gt;+periopde_jabatan" vertex="1">
+          <mxGeometry height="70" width="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-13" edge="1" parent="1" source="7RpCujOsSjWfrJzVqdp0-6" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="7RpCujOsSjWfrJzVqdp0-4" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="40" y="430" as="sourcePoint" />
+            <mxPoint x="140" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7RpCujOsSjWfrJzVqdp0-14" edge="1" parent="1" source="7RpCujOsSjWfrJzVqdp0-4" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="IyIFsRbAVmn_EXIJp_Lg-58" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="280" y="430" as="sourcePoint" />
+            <mxPoint x="380" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
